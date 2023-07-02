@@ -3,24 +3,7 @@ import { Link } from 'react-scroll';
 import './Navbar.css';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click);
- 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
   
   return (
     <>
@@ -30,10 +13,7 @@ function Navbar() {
             OPEN DEV
             <i style={{color: "teal"}} class="fa-solid fa-laptop-code"></i>
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={'nav-menu active'}>
             <li className='nav-item'>
               <Link className='nav-links' activeClass="active" smooth spy to="about">
                 About Us

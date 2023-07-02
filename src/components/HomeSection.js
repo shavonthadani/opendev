@@ -22,7 +22,7 @@ function HomeSection() {
         <p>Open Source, Open Minds, Open Doors</p>
         <div className="hero-btns">
           <button className="btn btn-scroll btn-lg btn-light w3-border-teal" onClick={handleClickScroll}>
-            Volunteer With Us Today <i class="fa-solid fa-laptop-code"></i>
+            Volunteer With Us Today
           </button>
         </div>
         <div className="w3-row-padding w3-center" style={{ marginTop: 64 }}>
