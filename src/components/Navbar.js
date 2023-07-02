@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
 import { Link } from 'react-scroll';
 import './Navbar.css';
 
@@ -69,10 +68,16 @@ function Navbar() {
               </Link>
             </li>
             
-           
             
+            
+ 
           </ul>
-          {button && <Button buttonStyle='btn--outline'  onClick={handleClickScroll}>Volunteer</Button>}
+          <Link
+                className='btn--outline'
+                activeClass="active" smooth spy to="volunteer"
+              >
+                Volunteer
+              </Link>
         </div>
       </nav>
     </>
