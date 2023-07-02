@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/opendev/static/css/main.315284f6.chunk.css",
+    "main.js": "/opendev/static/js/main.8f539343.chunk.js",
+    "main.js.map": "/opendev/static/js/main.8f539343.chunk.js.map",
+    "runtime-main.js": "/opendev/static/js/runtime-main.102ef139.js",
+    "runtime-main.js.map": "/opendev/static/js/runtime-main.102ef139.js.map",
+    "static/js/2.79fce325.chunk.js": "/opendev/static/js/2.79fce325.chunk.js",
+    "static/js/2.79fce325.chunk.js.map": "/opendev/static/js/2.79fce325.chunk.js.map",
+    "index.html": "/opendev/index.html",
+    "precache-manifest.2c40ea52555e068db00951d0cad84eb8.js": "/opendev/precache-manifest.2c40ea52555e068db00951d0cad84eb8.js",
+    "service-worker.js": "/opendev/service-worker.js",
+    "static/css/main.315284f6.chunk.css.map": "/opendev/static/css/main.315284f6.chunk.css.map",
+    "static/js/2.79fce325.chunk.js.LICENSE.txt": "/opendev/static/js/2.79fce325.chunk.js.LICENSE.txt",
+    "static/media/accessibility.jpg": "/opendev/static/media/accessibility.0b1dd395.jpg",
+    "static/media/chatbot.jpg": "/opendev/static/media/chatbot.01a3f97b.jpg",
+    "static/media/climate-app.jpg": "/opendev/static/media/climate-app.b7e0a3f0.jpg",
+    "static/media/coding.jpg": "/opendev/static/media/coding.8cedf403.jpg",
+    "static/media/fitness-tracker.jpg": "/opendev/static/media/fitness-tracker.5c9a43bf.jpg",
+    "static/media/github.jpg": "/opendev/static/media/github.5bcced96.jpg",
+    "static/media/green-energy.jpg": "/opendev/static/media/green-energy.8e73b912.jpg",
+    "static/media/img-home.jpg": "/opendev/static/media/img-home.aa2eb054.jpg",
+    "static/media/java.jpg": "/opendev/static/media/java.9ff8dcb0.jpg",
+    "static/media/meditation-app.jpg": "/opendev/static/media/meditation-app.bd595f8e.jpg",
+    "static/media/online-learning.jpg": "/opendev/static/media/online-learning.4930f6d7.jpg",
+    "static/media/python.jpg": "/opendev/static/media/python.482ad670.jpg",
+    "static/media/social-justice-events.jpg": "/opendev/static/media/social-justice-events.78b43520.jpg",
+    "static/media/sustainable-ecommerce.jpg": "/opendev/static/media/sustainable-ecommerce.e08bc826.jpg",
+    "static/media/telehealth.jpg": "/opendev/static/media/telehealth.99ef93b6.jpg",
+    "static/media/virtual-reality.jpg": "/opendev/static/media/virtual-reality.6e560282.jpg",
+    "static/media/webdev.jpg": "/opendev/static/media/webdev.d2cbe990.jpg",
+    "static/media/wellness-app.jpg": "/opendev/static/media/wellness-app.d43b0803.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.102ef139.js",
+    "static/js/2.79fce325.chunk.js",
+    "static/css/main.315284f6.chunk.css",
+    "static/js/main.8f539343.chunk.js"
+  ]
+}
