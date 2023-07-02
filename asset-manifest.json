@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/opendev/static/css/main.315284f6.chunk.css",
+    "main.css": "/opendev/static/css/main.f4197f14.chunk.css",
     "main.js": "/opendev/static/js/main.8f539343.chunk.js",
     "main.js.map": "/opendev/static/js/main.8f539343.chunk.js.map",
     "runtime-main.js": "/opendev/static/js/runtime-main.102ef139.js",
@@ -8,9 +8,9 @@
     "static/js/2.79fce325.chunk.js": "/opendev/static/js/2.79fce325.chunk.js",
     "static/js/2.79fce325.chunk.js.map": "/opendev/static/js/2.79fce325.chunk.js.map",
     "index.html": "/opendev/index.html",
-    "precache-manifest.2c40ea52555e068db00951d0cad84eb8.js": "/opendev/precache-manifest.2c40ea52555e068db00951d0cad84eb8.js",
+    "precache-manifest.06f282ee47d1d6e9340e37745289aad2.js": "/opendev/precache-manifest.06f282ee47d1d6e9340e37745289aad2.js",
     "service-worker.js": "/opendev/service-worker.js",
-    "static/css/main.315284f6.chunk.css.map": "/opendev/static/css/main.315284f6.chunk.css.map",
+    "static/css/main.f4197f14.chunk.css.map": "/opendev/static/css/main.f4197f14.chunk.css.map",
     "static/js/2.79fce325.chunk.js.LICENSE.txt": "/opendev/static/js/2.79fce325.chunk.js.LICENSE.txt",
     "static/media/accessibility.jpg": "/opendev/static/media/accessibility.0b1dd395.jpg",
     "static/media/chatbot.jpg": "/opendev/static/media/chatbot.01a3f97b.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.102ef139.js",
     "static/js/2.79fce325.chunk.js",
-    "static/css/main.315284f6.chunk.css",
+    "static/css/main.f4197f14.chunk.css",
     "static/js/main.8f539343.chunk.js"
   ]
 }
