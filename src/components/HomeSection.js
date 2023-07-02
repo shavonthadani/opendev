@@ -17,7 +17,8 @@ function HomeSection() {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat', }}>
-        <h1>Open Dev</h1>
+        <h1 className='title'>OPEN DEV<i class="fa-solid fa-laptop-code"></i></h1>
+        
         <p>Open Source, Open Minds, Open Doors</p>
         <div className="hero-btns">
           <button className="btn btn-scroll btn-lg btn-light w3-border-teal" onClick={handleClickScroll}>

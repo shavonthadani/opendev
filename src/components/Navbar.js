@@ -7,8 +7,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
+ 
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -22,13 +21,7 @@ function Navbar() {
   }, []);
 
   window.addEventListener('resize', showButton);
-  const handleClickScroll = () => {
-    const element = document.getElementById('volunteer');
-    if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  
   return (
     <>
       <nav className='navbar'>
