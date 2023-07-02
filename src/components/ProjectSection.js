@@ -39,7 +39,7 @@ function ProjectSection() {
       </div>
 
       <div className="card">
-        <div className="filter-container"  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div className="filter-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <div>
             <input type="checkbox" id="health" defaultValue="health" />
             <label htmlFor="health">Health and Wellness</label>
@@ -67,7 +67,7 @@ function ProjectSection() {
         <ul className="grid-list">
           <li className="health grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/chatbot.jpg" alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/chatbot.jpg")} alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Health Chatbot</h3>
                 <p className="w3-opacity">Health and Wellness</p>
@@ -79,7 +79,7 @@ function ProjectSection() {
           </li>
           <li className="health grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/telehealth.jpg" alt="John" style={{ width: '100%', borderRadius: '2.5%' }} ></img>
+              <img src={require("../images/telehealth.jpg")} alt="John" style={{ width: '100%', borderRadius: '2.5%' }} ></img>
               <div className="w3-container">
                 <h3>Telehealth Platform</h3>
                 <p className="w3-opacity">Health and Wellness</p>
@@ -91,7 +91,7 @@ function ProjectSection() {
           </li>
           <li className="health grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/wellness-app.jpg" alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/wellness-app.jpg")} alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Wellness App</h3>
                 <p className="w3-opacity">Health and Wellness</p>
@@ -103,7 +103,7 @@ function ProjectSection() {
           </li>
           <li className="health grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/fitness-tracker.jpg" alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/fitness-tracker.jpg")} alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Fitness Tracker</h3>
                 <p className="w3-opacity">Health and Wellness</p>
@@ -115,7 +115,7 @@ function ProjectSection() {
           </li>
           <li className="health grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/meditation-app.jpg" alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/meditation-app.jpg")} alt="John" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Meditation App</h3>
                 <p className="w3-opacity">Health and Wellness</p>
@@ -127,7 +127,7 @@ function ProjectSection() {
           </li>
           <li className="education grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/online-learning.jpg" alt="Online Learning" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/online-learning.jpg")} alt="Online Learning" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>E-Learning Platform</h3>
                 <p className="w3-opacity">Education</p>
@@ -139,7 +139,7 @@ function ProjectSection() {
           </li>
           <li className="education grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/virtual-reality.jpg" alt="Virtual Reality" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/virtual-reality.jpg")} alt="Virtual Reality" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Virtual Reality Learning</h3>
                 <p className="w3-opacity">Education</p>
@@ -151,7 +151,7 @@ function ProjectSection() {
           </li>
           <li className="environment grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/climate-app.jpg" alt="Climate App" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/climate-app.jpg")} alt="Climate App" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Climate Change Monitoring App</h3>
                 <p className="w3-opacity">Environment</p>
@@ -163,7 +163,7 @@ function ProjectSection() {
           </li>
           <li className="environment grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/sustainable-ecommerce.jpg" alt="Sustainable Ecommerce" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/sustainable-ecommerce.jpg")} alt="Sustainable Ecommerce" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Sustainable Ecommerce Platform</h3>
                 <p className="w3-opacity">Environment</p>
@@ -175,7 +175,7 @@ function ProjectSection() {
           </li>
           <li className="environment grid-item project-item">
             <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-              <img src="images/green-energy.jpg" alt="Green Energy" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <img src={require("../images/green-energy.jpg")} alt="Green Energy" style={{ width: '100%', borderRadius: '2.5%' }}></img>
               <div className="w3-container">
                 <h3>Green Energy Optimization</h3>
                 <p className="w3-opacity">Environment</p>
@@ -186,31 +186,29 @@ function ProjectSection() {
             </div>
           </li>
           <li className="accessibility grid-item project-item">
-  <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-    <img src="images/accessibility.jpg" alt="Accessibility" style={{ width: '100%', borderRadius: '2.5%' }}></img>
-    <div className="w3-container">
-      <h3>Web Accessibility Checker</h3>
-      <p className="w3-opacity">Accessibility</p>
-      <p>Develop a web application or browser extension that analyzes webpages and provides accessibility recommendations to improve usability for people with disabilities.</p>
-      <p><button className="w3-button w3-light-grey w3-block" style={{ borderRadius: '2.5%' }}>Join</button></p>
-      <br></br>
-    </div>
-  </div>
-</li>
-<li className="social-justice grid-item project-item">
-  <div className="w3-card" style={{ borderRadius: '2.5%' }}>
-    <img src="images/social-justice-events.jpg" alt="Social Justice Events" style={{ width: '100%', borderRadius: '2.5%' }}></img>
-    <div className="w3-container">
-      <h3>Social Justice Events Platform</h3>
-      <p className="w3-opacity">Social Justice</p>
-      <p>Create a web platform that connects individuals and organizations interested in social justice events. The platform should allow users to browse, discover, and participate in various events.</p>
-      <p><button className="w3-button w3-light-grey w3-block" style={{ borderRadius: '2.5%' }}>Join</button></p>
-      <br></br>
-    </div>
-  </div>
-</li>
-
-
+            <div className="w3-card" style={{ borderRadius: '2.5%' }}>
+              <img src={require("../images/accessibility.jpg")} alt="Accessibility" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <div className="w3-container">
+                <h3>Web Accessibility Checker</h3>
+                <p className="w3-opacity">Accessibility</p>
+                <p>Develop a web application or browser extension that analyzes webpages and provides accessibility recommendations to improve usability for people with disabilities.</p>
+                <p><button className="w3-button w3-light-grey w3-block" style={{ borderRadius: '2.5%' }}>Join</button></p>
+                <br></br>
+              </div>
+            </div>
+          </li>
+          <li className="social-justice grid-item project-item">
+            <div className="w3-card" style={{ borderRadius: '2.5%' }}>
+              <img src={require("../images/social-justice-events.jpg")} alt="Social Justice Events" style={{ width: '100%', borderRadius: '2.5%' }}></img>
+              <div className="w3-container">
+                <h3>Social Justice Events Platform</h3>
+                <p className="w3-opacity">Social Justice</p>
+                <p>Create a web platform that connects individuals and organizations interested in social justice events. The platform should allow users to browse, discover, and participate in various events.</p>
+                <p><button className="w3-button w3-light-grey w3-block" style={{ borderRadius: '2.5%' }}>Join</button></p>
+                <br></br>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </>

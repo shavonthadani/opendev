@@ -15,7 +15,8 @@ function App() {
     <>
       <Router>
         <Navbar />
-          <HomeSection id="home" />
+        <div id="home"><HomeSection/></div>
+          
         <AboutSection />
         <div id="projects">
         <ProjectSection/>

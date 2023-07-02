@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import './HomeSection.css';
-
+import BackgroundImage from '../images/img-home.jpg'
 function HomeSection() {
   const handleClickScroll = () => {
     const element = document.getElementById('volunteer');
@@ -13,7 +13,10 @@ function HomeSection() {
 
   return (
     <>
-      <div className="hero-container">
+      <div className="hero-container" style={{ background: `url(${BackgroundImage})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat', }}>
         <h1>Open Dev</h1>
         <p>Open Source, Open Minds, Open Doors</p>
         <div className="hero-btns">

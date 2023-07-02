@@ -23,7 +23,7 @@ function ContactUsSection() {
                  </div>
               </div>
               <div class="w3-section">
-                <label>Message</label>
+                <label>Subject</label>
                 <input class="w3-input" type="text" id="q2" name="Message" required></input>
               </div>
               <div class="w3-section">
@@ -36,7 +36,7 @@ function ContactUsSection() {
           </div>
       </div>
       <div class="w3-col m6 w3-center">
-        <img class="w3-image w3-round-large" src="images/coding.jpg" width="600" height="30"></img>
+        <img class="w3-image w3-round-large" src={require("../images/coding.jpg")} width="600" height="30"></img>
       </div>
     </div>
   </div>
