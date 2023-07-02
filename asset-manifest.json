@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/opendev/static/css/main.a4f6bd91.chunk.css",
-    "main.js": "/opendev/static/js/main.57b6480e.chunk.js",
-    "main.js.map": "/opendev/static/js/main.57b6480e.chunk.js.map",
+    "main.css": "/opendev/static/css/main.6c57db8f.chunk.css",
+    "main.js": "/opendev/static/js/main.1aaf7ad3.chunk.js",
+    "main.js.map": "/opendev/static/js/main.1aaf7ad3.chunk.js.map",
     "runtime-main.js": "/opendev/static/js/runtime-main.102ef139.js",
     "runtime-main.js.map": "/opendev/static/js/runtime-main.102ef139.js.map",
     "static/js/2.79fce325.chunk.js": "/opendev/static/js/2.79fce325.chunk.js",
     "static/js/2.79fce325.chunk.js.map": "/opendev/static/js/2.79fce325.chunk.js.map",
     "index.html": "/opendev/index.html",
-    "precache-manifest.da63b21957ec9ab88acdb3437d258e4f.js": "/opendev/precache-manifest.da63b21957ec9ab88acdb3437d258e4f.js",
+    "precache-manifest.16983fe907809c560245562eb607f9f3.js": "/opendev/precache-manifest.16983fe907809c560245562eb607f9f3.js",
     "service-worker.js": "/opendev/service-worker.js",
-    "static/css/main.a4f6bd91.chunk.css.map": "/opendev/static/css/main.a4f6bd91.chunk.css.map",
+    "static/css/main.6c57db8f.chunk.css.map": "/opendev/static/css/main.6c57db8f.chunk.css.map",
     "static/js/2.79fce325.chunk.js.LICENSE.txt": "/opendev/static/js/2.79fce325.chunk.js.LICENSE.txt",
     "static/media/accessibility.jpg": "/opendev/static/media/accessibility.0b1dd395.jpg",
     "static/media/chatbot.jpg": "/opendev/static/media/chatbot.01a3f97b.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.102ef139.js",
     "static/js/2.79fce325.chunk.js",
-    "static/css/main.a4f6bd91.chunk.css",
-    "static/js/main.57b6480e.chunk.js"
+    "static/css/main.6c57db8f.chunk.css",
+    "static/js/main.1aaf7ad3.chunk.js"
   ]
 }
