@@ -17,7 +17,7 @@ function HomeSection() {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat', }}>
-        <h1 className='title'>OPEN DEV<i class="fa-solid fa-laptop-code"></i></h1>
+        <h1 className='title'>OPEN DEV<i class="fa-solid fa-laptop-code" ></i></h1>
         
         <p>Open Source, Open Minds, Open Doors</p>
         <div className="hero-btns">

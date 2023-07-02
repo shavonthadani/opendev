@@ -34,7 +34,7 @@ function ProjectSection() {
     <>
       <div className="w3-row-padding w3-center" style={{ marginTop: 64 }}>
         <div className="w3-padding-16">
-          <span className="w3-xlarge w3-border-teal w3-bottombar">Active Projects</span>
+          <span className="w3-xlarge subtitle">Active Projects</span>
         </div>
       </div>
 

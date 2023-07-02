@@ -4,7 +4,7 @@ function AboutSection() {
   return (
     <div className="w3-container " style={{ padding: "1px 1px" }} id="about">
       <div className="w3-row-padding w3-center" style={{ marginTop: 64 }}>
-      <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">About Us</span></div>
+      <div class="w3-padding-16"><span class="w3-xlarge subtitle">About Us</span></div>
 
         <div className="w3-quarter ">
           <i className="fa-solid fa-people-group w3-margin-bottom w3-jumbo w3-center" />

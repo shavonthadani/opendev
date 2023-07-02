@@ -3,7 +3,7 @@ function VolunteerSection() {
   return (
     <>
       <div class="w3-container w3-padding-64 w3-theme-l5" id="volunteer">
-      <div className="w3-row-padding w3-center" ><div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Volunteer with us</span></div></div>
+      <div className="w3-row-padding w3-center" ><div class="w3-padding-16"><span class="w3-xlarge subtitle">Volunteer with us</span></div></div>
         <div class="w3-row">
           
           <div>
